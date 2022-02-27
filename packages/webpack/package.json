@@ -1,0 +1,33 @@
+{
+  "name": "@constexprcss/webpack",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/constexprcss/constexprcss.git",
+    "directory": "packages/webpack"
+  },
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/helper-plugin-utils": "^7.14.5",
+    "webpack": "^5.52.0",
+    "@constexprcss/babel-plugin": "workspace:*",
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.15.4",
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/template": "^7.15.4"
+  }
+}

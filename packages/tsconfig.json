@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "useDefineForClassFields": true,
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ESNext"
+        ],
+        "allowJs": false,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "jsx": "react",
+        "incremental": true,
+        "composite":true,
+        "declaration": true
+    }
+}

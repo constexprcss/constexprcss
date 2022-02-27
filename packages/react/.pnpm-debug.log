@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "D:\\constexprcss"
+  },
+  "1 error pnpm": {
+    "errno": 2,
+    "code": "ELIFECYCLE",
+    "pkgid": "@constexprcss/react@0.1.0",
+    "stage": "build",
+    "script": "tsc",
+    "pkgname": "@constexprcss/react",
+    "err": {
+      "name": "Error",
+      "message": "@constexprcss/react@0.1.0 build: `tsc`\nExit status 2",
+      "code": "ELIFECYCLE",
+      "stack": "Error: @constexprcss/react@0.1.0 build: `tsc`\nExit status 2\n    at EventEmitter.<anonymous> (C:\\Users\\mohammed\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:104110:20)\n    at EventEmitter.emit (events.js:315:20)\n    at ChildProcess.<anonymous> (C:\\Users\\mohammed\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:92416:18)\n    at ChildProcess.emit (events.js:315:20)\n    at maybeClose (internal/child_process.js:1048:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)"
+    }
+  }
+}
